@@ -1,6 +1,5 @@
 XOXZO Nagios Boilerplate
 ========================
-----------
 The repository contains boilerplate to write nagios plugin in python. Once the check failed or critical, emergency operations center (EOC) will get notification through their phone using XOXZO telephony API.
 
 **How to use**
@@ -35,4 +34,5 @@ The repository contains boilerplate to write nagios plugin in python. Once the c
     status = api.call(caller="+60199999999", recipient="+60123456789", message="Hello world!")
 
 **License**
+
 The xoxzo-nagios-boilerplate is licensed under the terms of the GPL Open Source license and is available for free.
