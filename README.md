@@ -32,7 +32,3 @@ The repository contains boilerplate to write nagios plugin in python. Once the c
     from xoxzo.api import XoxzoApi
     api = XoxzoApi()
     status = api.call(caller="+60199999999", recipient="+60123456789", message="Hello world!")
-
-**License**
-
-The xoxzo-nagios-boilerplate is licensed under the terms of the GPL Open Source license and is available for free.
